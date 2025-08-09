@@ -3,7 +3,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: hsl(0, 0%, 95%);
+  background-color: wheat;
   height: 100vh;
 }
 
