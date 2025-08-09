@@ -1,19 +1,17 @@
 // CALCULATOR PROGRAM
 
-let display = document.getElementById("display");
-
 function appendToDisplay(value) {
-  display.value += value;
-}
-
-function clearDisplay() {
-  display.value = "";
+  document.getElementById("display").value += value;
 }
 
 function calculate() {
   try {
-    display.value = eval(display.value);
+    document.getElementById("display").value = eval(document.getElementById("display").value);
   } catch (error) {
-    display.value = "Error";
+    document.getElementById("display").value = "Error";
   }
+}
+
+function clearDisplay() {
+  document.getElementById("display").value = "";
 }
