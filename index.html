@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <div id="calculator">
+        <input id="display" readonly>
+        <div id="keys">
+            <button onclick="appendToDisplay('+')" class="operator-btn">+</button>
+            <button onclick="appendToDisplay('7')" class="btn-2">7</button>
+            <button onclick="appendToDisplay('8')" class="btn-2">8</button>
+            <button onclick="appendToDisplay('9')" class="btn-2">9</button>
+            <button onclick="appendToDisplay('-')" class="operator-btn">-</button>
+            <button onclick="appendToDisplay('4')" class="btn-2">4</button>
+            <button onclick="appendToDisplay('5')" class="btn-2">5</button>
+            <button onclick="appendToDisplay('6')" class="btn-2">6</button>
+            <button onclick="appendToDisplay('*')" class="operator-btn">*</button>
+            <button onclick="appendToDisplay('1')" class="btn-2">1</button>
+            <button onclick="appendToDisplay('2')" class="btn-2">2</button>
+            <button onclick="appendToDisplay('3')" class="btn-2">3</button>
+            <button onclick="appendToDisplay('/')" class="operator-btn">/</button>
+            <button onclick="appendToDisplay('0')" class="btn-2">0</button>
+            <button onclick="appendToDisplay('.')" class="btn-2">.</button>
+            <button onclick="calculate()" class="btn-2">=</button>
+            <button onclick="clearDisplay()" class="operator-btn">C</button>
+        </div>
+    </div>
+    
+</body>
+</html>
